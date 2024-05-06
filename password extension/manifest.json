@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Breach Password Checker",
+  "version": "1.0",
+  "description": "Check if a password has been breached.",
+  "host_permissions": [
+    
+    "https://haveibeenpwned.com/"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
